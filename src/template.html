@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style href="./styles.css"></style>
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="menu-div">
+        <div class="menu-title-div">
+            <button class="menu-button"><img src="../svg-icon/menu-svgrepo-com.svg" alt="menu icon" class="menu-img"/><h1 class="second-title menu-title">Menu</h1></button>
+        </div>
+        <div class="border-botton"></div>
+        <div class="add-new-div">
+            <div class="new-todo-div add-new">
+                <button class="add-new-button" id="new-to-do"><img src="../svg-icon/plus-large-svgrepo-com.svg" alt="new to do" class="add-new-img">New To Do</button>
+            </div>
+            <div class="new-checklist-div add-new">
+                <button class="add-new-button"><img src="../svg-icon/plus-large-svgrepo-com.svg" alt="new checklist" class="add-new-img">New Checklist</button>
+            </div>
+        </div>
+        <div class="border-botton"></div>
+        <div class="menu-list-div">
+            <h2 class="third-title">List</h2>
+            <ul class="task-list">
+                <li class="list-element"><button class="list-button">list 1</button></li>
+                <li class="list-element"><button class="list-button">list 2</button></li>
+                <li class="list-element"><button class="list-button">list 3</button></li>
+            </ul>
+            <button class="add-new-button">
+                <img src="../svg-icon/plus-large-svgrepo-com.svg" alt="add new list" class="add-new-list-img add-new-img">
+                Add new list
+            </button>
+        </div>
+        <div class="border-botton"></div>
+    </div>
+    <div class="main-app-div">
+        <div class="main-title-div">
+            <h1 class="main-title">Today tasks</h1><h1 id="quantity-title">0</h1>
+        </div>
+        <div class="second-container">
+            <div class="today-todo-div todo-div">
+                <ul class="task-list" id="today-task-list">
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="secondary-app-div">
+            <div class="tomorrow-todo-div todo-div">
+                <ul class="task-list" id="tomorrow-task-list">
+                    
+                </ul>
+            </div>
+            <div class="week-todo-div todo-div">
+                <ul id="week-task-list"></ul>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

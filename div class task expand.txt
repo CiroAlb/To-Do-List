@@ -1,0 +1,28 @@
+<div class="task-expand">
+                            <div class="description-div"><p class="description-task">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat enim sint aperiam saepe, ipsa nobis repudiandae architecto eius eveniet doloribus deleniti illum est, harum aliquam veniam possimus? Distinctio, nisi.</p></div>
+                            <div class="extras-dis">
+                                <input type="date" name="task-date" id="task-date-1" class="task-date">
+                                <label for="priority">Select Priority:</label>
+                                <select id="priority" name="priority">
+                                    <option value="high" style="background-color: red; color: white;" class="priority-election" >High Priority</option>
+                                    <option value="medium-high" style="background-color: orange; color: white;" class="priority-election" >Medium-High Priority</option>
+                                    <option value="medium" style="background-color: yellow; color: black;" class="priority-election" >Medium Priority</option>
+                                    <option value="low" style="background-color: green; color: white;" class="priority-election" >Low Priority</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+
+<div class="extras-dis">
+                <input type="text" name="task title" placeholder="enter title" >
+                <input type="text" name="task title" placeholder="enter description" >
+                <input type="date" name="task-date" id="task-date-${listItemId}" class="task-date">
+                <label for="priority">Select Priority:</label>
+                <select id="priority-${listItemId}" name="priority">
+                    <option value="high" style="background-color: red; color: white;" class="priority-election">High Priority</option>
+                    <option value="medium-high" style="background-color: orange; color: white;" class="priority-election">Medium-High Priority</option>
+                    <option value="medium" style="background-color: yellow; color: black;" class="priority-election">Medium Priority</option>
+                    <option value="low" style="background-color: green; color: white;" class="priority-election">Low Priority</option>
+                </select>
+            </div>
